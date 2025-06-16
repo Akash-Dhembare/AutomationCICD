@@ -18,7 +18,7 @@ public class ErrorValidationsTests extends BaseTest {
 
         String productName="ADIDAS ORIGINAL";
         landingPage.loginApplication("tejasb199@gmail.com", "Tejas@1999"); // Invalid U/P
-        Assert.assertEquals("Incorrect emal or password.",landingPage.getErrorMessage());
+        Assert.assertEquals("Incorrect email or password.",landingPage.getErrorMessage());
 
     }
 
