@@ -27,7 +27,7 @@ import java.util.Properties;
 
 public class BaseTest {
 
-    // New Comment to check CI / CD Test
+    // New Comment to check CI / CD
     public WebDriver driver;
     public LandingPage landingPage;
 
